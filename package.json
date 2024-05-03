@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --host",
 		"build": "vite build",
 		"preview": "vite preview",
 		"test": "playwright test",
@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@supabase/supabase-js": "^2.43.0",
 		"bits-ui": "^0.21.7",
 		"clsx": "^2.1.1",
 		"tailwind-merge": "^2.3.0",
